@@ -1,0 +1,138 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #cccccc;
+    margin: 0;
+    padding: 20px;
+}
+
+#hoja {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+#encabezado {
+    background-color: #243a5e;
+    height: 200px;
+    position: relative;
+    color: white;
+    text-align: right;
+}
+
+#encabezado h1 {
+    margin: 0;
+    padding: 30px 25px 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+#encabezado h3{
+    margin: 12px 25px 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+#foto {
+    position: absolute;
+    left: 35px;
+    top: 55px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid white;
+    object-fit: cover;
+    background-color: white;
+}
+
+#columnas {
+    display: flex;
+}
+
+#izquierda {
+    width: 280;
+    background-color: #e3e4e8;
+    padding: 95px 15px 20px 15px;
+    box-sizing: border-box;
+}
+
+#derecha {
+    width: 520px;
+    padding: 15px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    background-color: #e3e4e8;
+    color: #1a2a5e;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    margin: 20px 0 10px 0;
+}
+
+#izquierda .titulo {
+    background-color: white;
+}
+
+.icono {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 8px;
+    letter-spacing: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #1a2a5e;
+}
+
+li {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #1a2a5e;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+h3.lugar {
+    font-size: 16px;
+    margin: 10px 0 2px 0;
+}
+
+#objetivo {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1a2a5e;
+}
+
+table {
+    font-size: 14px;
+    color: #1a2a5e;
+}
+
+td {
+    padding: 3px 8px 3px 0;
+    vertical-align: top;
+}
+
+.azul {
+    color: #1a2a5e;
+    font-weight: bold;
+}
+
